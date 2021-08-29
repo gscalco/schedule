@@ -1,0 +1,22 @@
+.container{
+    border: 1px solid;
+    width: calc(70vw + 16px);
+    height: 45.8vw;
+    font-size: 0px;
+}
+
+.day{
+    display: inline-block;
+    border: 1px solid;
+    width: calc(70vw/8);
+    font-size: 1vw;
+    text-align: center;
+}
+
+.box{
+    display: inline-block;
+    border: 1px solid;
+    width: calc(70vw/8);
+    height: calc(70vw/8);
+
+}
