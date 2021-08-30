@@ -1,22 +1,53 @@
 .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     border: 1px solid;
-    width: calc(70vw + 16px);
-    height: 45.8vw;
-    font-size: 0px;
+    border-radius: 5px;
+    width: 1332px; /* 32px from the borders*/
+
+    font-family: cursive;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+
+    background-image: url("img/calendar.jpg");
+    background-size: 100% 170%;
 }
 
 .day{
-    display: inline-block;
-    border: 1px solid;
-    width: calc(70vw/8);
-    font-size: 1vw;
-    text-align: center;
+    width: 155px;
+    border: 2px black solid;
+    border-radius: 5px;
+    flex: 1 1 auto;
+    background-color: rgba(7, 1, 1, 0.733);
+    color: rgb(170, 162, 162);
+}
+
+.time{
+    width: 155px;
+    height: 118px;
+    border: 2px black solid;
+    border-radius: 5px;
+    flex: 1 1 auto;
+    line-height: 7em;
+    background-color: rgba(7, 1, 1, 0.733);
+    color: rgb(170, 162, 162);
 }
 
 .box{
-    display: inline-block;
-    border: 1px solid;
-    width: calc(70vw/8);
-    height: calc(70vw/8);
+    width: 155px;
+    height: 118px;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 1px;
+    flex: 1 1 auto;
+    line-height: 7em;
+}
+
+img{
+    vertical-align: middle;
+    width: 50%;
+    height: 50%;
 
 }
